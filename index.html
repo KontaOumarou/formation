@@ -2,100 +2,114 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guerrier du Numérique - Formation en Informatique Bureautique</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <img src="logo.jpg" alt="Guerrier du Numérique" class="logo">
-        <nav>
-            <ul>
-                <li><a href="#accueil">Accueil</a></li>
-                <li><a href="#a-propos">À propos</a></li>
-                <li><a href="#modules">Modules de Formation</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section id="accueil" class="banner">
-        <h1>Guerrier du Numérique</h1>
-        <p>Formation en Informatique Bureautique</p>
-        <p>Développez vos compétences numériques aujourd'hui !</p>
-    </section>
-    
-    <section id="a-propos" class="presentation">
-        <h2>Pourquoi choisir Guerrier du Numérique ?</h2>
-        <p>Nous offrons une formation complète en informatique bureautique adaptée à tous les niveaux. Que vous soyez débutant ou avancé, nos cours vous fourniront les compétences nécessaires pour exceller dans le monde numérique.</p>
-        <img src="classroom.jpg" alt="Classe de formation">
-    </section>
-    
-    <section id="modules" class="modules">
-        <h2>Nos Modules de Formation</h2>
-        
-        <div class="module">
-            <h3>Module 1: Initiation au Monde Numérique</h3>
-            <img src="computer_basics.jpg" alt="Initiation au Monde Numérique">
-            <p>Dans ce modules vous apprendrez les bases de l'informatique et vous allez vous familiariser avec les systèmes d'exploitation.</p>
-        </div>
-        
-        <div class="module">
-            <h3>Module 2: Maîtrise de Microsoft Word</h3>
-            <img src="ms_word.jpg" alt="Microsoft Word">
-            <p>Ce module est conçu des documents professionnels.</p>
-        </div>
-        
-        <div class="module">
-            <h3>Module 3: Expertise en Microsoft Excel</h3>
-            <img src="excel_charts.jpg" alt="Microsoft Excel">
-            <p>Analysez des données et automatisez des tâches avec Excel.</p>
-        </div>
-        
-        <div class="module">
-            <h3>Module 4: Création de Présentations Professionnelles avec PowerPoint</h3>
-            <img src="powerpoint.jpg" alt="Microsoft PowerPoint">
-            <p>Concevez des présentations dynamiques et engageantes.</p>
-        </div>
-        
-        <div class="module">
-            <h3>Module 5: Collaboration et Productivité</h3>
-            <img src="team_collaboration.jpg" alt="Collaboration et Productivité">
-            <p>Utilisez Microsoft Outlook et Teams pour une collaboration efficace.</p>
-        </div>
-        
-        <div class="module">
-            <h3>Module 6: Sécurité et Bonnes Pratiques</h3>
-            <img src="cyber_security.jpg" alt="Sécurité et Bonnes Pratiques">
-            <p>Protégez vos données et respectez les réglementations.</p>
-        </div>
-        
-        <div class="module">
-            <h3>Module 7: Projets Pratiques et Validation des Compétences</h3>
-            <img src="project_work.jpg" alt="Projets Pratiques">
-            <p>Appliquez vos compétences à des projets réels et obtenez des retours d'expérience.</p>
-        </div>
-    </section>
-    
-    <section id="contact" class="contact">
-        <h2>Contactez-nous</h2>
-        <p>Pour plus d'informations et pour vous inscrire, n'hésitez pas à nous contacter.</p>
-        <p>Téléphone : +223 63 12 46 50 / +223 70 29 24 82</p>
-        <p>Email : <a href="mailto:okonta.leguerrier@gmail.com">okonta.leguerrier@gmail.com</a></p>
-        <p>WhatsApp et Telegram : +223 63 12 46 50</p>
-    </section>
-    
-    <footer>
-        <ul>
-            <li><a href="#accueil">Accueil</a></li>
-            <li><a href="#a-propos">À propos</a></li>
-            <li><a href="#modules">Modules de Formation</a></li>
+    <nav>
+        <div class="logo">Guerrier du Numérique</div>
+        <ul class="nav-links">
+            <li><a href="#about">À propos</a></li>
+            <li><a href="#modules">Modules</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>
-        <p>© 2024 Guerrier du Numérique. Tous droits réservés.</p>
-        <div class="social-media">
-            <!-- Icônes et liens vers Facebook, Twitter, LinkedIn, etc. -->
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="logo.jpg" alt="Guerrier du Numérique" />
         </div>
+        <div class="section__text">
+            <p class="section__text__p1">Bienvenue à la formation</p>
+            <h1 class="title">Guerrier du Numérique</h1>
+            <p class="section__text__p2">Formez-vous à l'informatique bureautique</p>
+            <div class="btn-container">
+                <button class="btn btn-color-1" onclick="location.href='#contact'">Contacts</button>
+            </div>
+            
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">En savoir plus</p>
+        <h1 class="title">À propos de la formation</h1>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="project_work.jpg" alt="Formation Guerrier du Numérique" class="about-pic" />
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <h3>Lieu</h3>
+                        <p>Alliance Franco-malienne de Mopti</p>
+                    </div>
+                    <div class="details-container">
+                        <h3>Coût</h3>
+                        <p>Inscription: 5 000 FCFA<br />Formation: 10 000 FCFA</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>Notre formation vise à vous fournir les compétences nécessaires pour maîtriser les outils bureautiques courants. Que vous soyez débutant ou avancé, nous avons des modules adaptés à votre niveau.</p>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section id="modules">
+        <p class="section__text__p1">Découvrez nos</p>
+        <h1 class="title">Modules de formation</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <h1> Niveau débutant </h1>
+                <div class="details-container">
+                    <h3 class="experience-sub-title">Module 1: Initiation au Monde Numérique</h3>
+                    <p>Introduction aux bases de l'informatique et de l'internet, gestion des fichiers et dossiers, sécurité informatique.</p>
+                </div>
+                <div class="details-container">
+                    <h3 class="experience-sub-title">Module 2: Maîtrise de Microsoft Word</h3>
+                    <p>Utilisation avancée de Microsoft Word et création de documents professionnels.</p>
+                </div>
+                <div class="details-container">
+                    <h3 class="experience-sub-title">Module 3: Expertise en Microsoft Excel</h3>
+                    <p>Utilisation d'un tableur Excel pour les calcul et les analyses de donnés avec les tableaux et les graphiques.</p>
+                </div>
+                <div class="details-container">
+                    <h3 class="experience-sub-title">Module 4:  Création de Présentations Professionnelles avec PowerPoint</h3>
+                    <p>Conceptions des présentations dynamiques, engageantes et captivantes.</p>
+                </div>
+                <div class="details-container">
+                    <h3 class="experience-sub-title">Module 5: Sécurité et Bonnes Pratiques</h3>
+                    <p>Ergonomie, l'éthique, les dangers, et la sécurité en informatique</p>
+                </div>
+                <div class="details-container">
+                    <h3 class="experience-sub-title">Module 6: Projets Pratiques et Validation des Compétences</h3>
+                    <p>Appliquez vos compétences à des projets réels et obtenez des retours d'expérience.s</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <p class="section__text__p1">Nous contacter</p>
+        <h1 class="title">Contact</h1>
+        <div class="contact-info-upper-container">
+            <div class="contact-info-container">
+                <img src="telephoner.png" alt="Téléphone" class="contact-icon" />
+                <p>+223 63 12 46 50/ +223 70 29 24 82</p>
+              
+            </div>
+            <div class="contact-info-container">
+                <img src="email.png" alt="Email" class="email-icon contact-icon" />
+                <p>okonta.leguerrier@gmail.com</p>
+            </div>
+            <div class="contact-info-container">
+                <img src="whatsapp.png" alt="WhatsApp" class="contact-icon" />
+                <p>WhatsApp: +223 63 12 46 50/ +223 70 29 24 82</p>
+            </div>
+            
+        </div>
+    </section>
+    <footer>
+        <p>&copy; 2024 Guerrier du Numérique. Tous droits réservés.</p>
     </footer>
 </body>
 </html>
